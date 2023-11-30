@@ -52,16 +52,16 @@ function Home() {
           
                         <div class="owl-carousel-item position-relative">
            
-                            <img class="img-fluid" src="img/carousel-2.jpg" alt="" width="90%" height="30%"/>
-                            <div class="position-absolute top-0 start-0 w-100 h-80 d-flex align-items-center carousl" >
+                            <img class="img-fluid " src="img/carousel-1.jpg" alt="" />
+                            <div class="position-absolute top-0 start-0 w-100 h-90 d-flex align-items-center carousl mt-5" >
                                 <div class="container">
                                     <div class="row justify-content-start">
                                         <div class="col-10 col-lg-8">
-                                            <h3 class="display-3 text-white animated slideInDown mb-4">Make A Brighter Future Path For Your Child</h3>
-                                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Our Tuition are going to be the best in the area</p>
-                                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Student will get 100 % pratical Knowledge of subjects</p>
-                                            <Link to="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Learn More</Link>
-                                            <Link to="" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Our Classes</Link>
+                                            <h5 class="display-5 text-white animated slideInDown mb-4">Make A Brighter Future Path For Your Child</h5>
+                                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Our tuition will be the best in the area. </p>
+                                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Students will receive 100% practical knowledge</p>
+                                            {/* <Link to="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Learn More</Link>
+                                            <Link to="" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Our Classes</Link> */}
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ function Home() {
                     <div class="container">
                         <div class="text-center mx-auto mb-5 wow fadeInUp schooldata" data-wow-delay="0.1s" >
                             <h1 class="mb-3">Tuition Facilities</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                            <p className='fs-4'>At our institution, we offer comprehensive teaching services encompassing only all English medium subjects. Additionally, we provide fundamental computer knowledge, covering both artificial intelligence (AI) and web development."</p>
                         </div>
                         <div class="row g-4">
                             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -149,7 +149,7 @@ Domain knowledge involves expertise within a specific field of subject like Phys
                     <div class="container">
                         <div class="text-center mx-auto mb-5 wow fadeInUp schooldata" data-wow-delay="0.1s">
                             <h1 class="mb-3">Tuition Classes</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                            <p>Explore the world of computer knowledge, AI, and web development in our specialized classes. Our courses focus on providing a strong foundation in these subjects, ensuring students acquire essential skills. Classes exclusively in English medium subjects. Join us to unlock a realm of practical learning and prepare for a dynamic future.</p>
                         </div>
                         <div class="row g-4">
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -175,7 +175,7 @@ Domain knowledge involves expertise within a specific field of subject like Phys
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-primary pt-2">
                                                     <h6 class="text-primary mb-1">Age:</h6>
-                                                    <small>10-19</small>
+                                                    <small>10-19 Years</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
@@ -295,19 +295,19 @@ Domain knowledge involves expertise within a specific field of subject like Phys
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-primary pt-2">
                                                     <h6 class="text-primary mb-1">Age:</h6>
-                                                    <small>3-5 Years</small>
+                                                    <small>14-15 Years</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-success pt-2">
                                                     <h6 class="text-success mb-1">Time:</h6>
-                                                    <small>9-10 AM</small>
+                                                    <small>6-7 PM</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-warning pt-2">
                                                     <h6 class="text-warning mb-1">Capacity:</h6>
-                                                    <small>30 Kids</small>
+                                                    <small>30 Students</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -335,19 +335,19 @@ Domain knowledge involves expertise within a specific field of subject like Phys
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-primary pt-2">
                                                     <h6 class="text-primary mb-1">Age:</h6>
-                                                    <small>3-5 Years</small>
+                                                    <small>13-14 Years</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-success pt-2">
                                                     <h6 class="text-success mb-1">Time:</h6>
-                                                    <small>9-10 AM</small>
+                                                    <small>7-8 PM</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-warning pt-2">
                                                     <h6 class="text-warning mb-1">Capacity:</h6>
-                                                    <small>30 Kids</small>
+                                                    <small>30 Students</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -375,19 +375,19 @@ Domain knowledge involves expertise within a specific field of subject like Phys
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-primary pt-2">
                                                     <h6 class="text-primary mb-1">Age:</h6>
-                                                    <small>3-5 Years</small>
+                                                    <small>5-12 Years</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-success pt-2">
                                                     <h6 class="text-success mb-1">Time:</h6>
-                                                    <small>9-10 AM</small>
+                                                    <small>6-7 PM</small>
                                                 </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="border-top border-3 border-warning pt-2">
                                                     <h6 class="text-warning mb-1">Capacity:</h6>
-                                                    <small>30 Kids</small>
+                                                    <small>30 Students</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -464,9 +464,15 @@ Domain knowledge involves expertise within a specific field of subject like Phys
                 <div class="container-xxl py-5">
                     <div class="container">
                         <div class="text-center mx-auto mb-5 wow fadeInUp schooldata" data-wow-delay="0.1s" >
-                            <h1 class="mb-3">Popular Teachers</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-                                eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                            <h1 class="mb-3">Meet our Popular Teachers</h1>
+                            <p><b  className='text-success'>Er Yasir Arfat:</b>
+
+Achieved the golden medallist title in Master of Computer Science.
+Currently excelling in the IT corporate sector.</p>
+<p><b className='text-success'>Er Sheikh Suhail:</b>
+
+Attained the golden medallist distinction in Bachelor of Technology (B.Tech) in Computer Science.
+Presently thriving in the IT corporate domain.</p>
                         </div>
                         <div class="row g-4">
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
