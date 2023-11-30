@@ -31,8 +31,8 @@ import {Link} from 'react-router-dom';
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
                     <Link to="/" class="nav-item nav-link active">Home</Link>
-                    <Link to="about.html" class="nav-item nav-link">About Us</Link>
-                    {/* <Link to="Contact" class="nav-item nav-link">Contact Us</Link> */}
+                    {/* <Link to="about.html" class="nav-item nav-link">About Us</Link> */}
+                    <Link to="Contact" class="nav-item nav-link">Contact Us</Link>
                     {roleId === '1' && (<>
                         <Link to="/" class="nav-item nav-link" onClick={logout}>LogOut</Link>
               <Link to="/Std_Dashboard" className="nav-item nav-link">

@@ -22,8 +22,8 @@ import {Link} from 'react-router-dom';
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h3 class="text-white mb-4">Quick Links</h3>
-                        <Link  class="btn btn-link text-white-50" href="/">Home</Link>
-                        <Link class="btn btn-link text-white-50" href="">Contact Us</Link>
+                        <Link  class="btn btn-link text-white-50" to="/">Home</Link>
+                        <Link class="btn btn-link text-white-50" to="Contact">Contact Us</Link>
                         {/* <Link class="btn btn-link text-white-50" href="">About Us</Link> */}
                        
                         <Link class="btn btn-link text-white-50" href="">Terms & Condition</Link>
