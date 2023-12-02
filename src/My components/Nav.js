@@ -5,10 +5,13 @@ import {Link} from 'react-router-dom';
     const [roleId, setRoleId] = useState(localStorage.getItem('roleId'));
     const [userName, setUserName] = useState(localStorage.getItem('Username'));
 
+  //  const onlyname= userName.split('@')[0]
+
     useEffect(() => {
       // Continuously check local storage for changes in roleId
       const intervalId = setInterval(() => {
         setRoleId(localStorage.getItem('roleId'));
+       
       }, 1000); // Check every 1000 milliseconds (1 second)
   
       // Cleanup the interval when the component unmounts
@@ -38,7 +41,7 @@ import {Link} from 'react-router-dom';
               <Link to="/Std_Dashboard" className="nav-item nav-link">
                 Dashboard
               </Link>
-              <span className='nav-item nav-link text-warning'>Welcome Student {userName.split('@')[0]} <i className="fa fa-user fa- text-success"></i></span>
+              <span className='nav-item nav-link text-warning'>Welcome Student  <i className="fa fa-user fa- text-success"></i></span>
               
            
                     </>
@@ -49,7 +52,7 @@ import {Link} from 'react-router-dom';
               <Link to="/Par_Dashboard" className="nav-item nav-link">
                 Dashboard
               </Link>
-              <span className='nav-item nav-link text-warning'>Welcome Parent {userName.split('@')[0]} <i className="fa fa-user fa- text-success"></i></span>
+              <span className='nav-item nav-link text-warning'>Welcome Parent    <i className="fa fa-user fa- text-success"></i></span>
                     </>
                          
             )}

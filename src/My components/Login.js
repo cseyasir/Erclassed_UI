@@ -12,17 +12,20 @@ function Login() {
         const password = document.getElementById('password').value;
     
         // Check if the user's name contains "Student" or "Parent"
-        if (userName.includes('Student')) {
+        if (userName.includes('student')) {
           // If the user name contains "Student," store role ID as 1
           localStorage.setItem('roleId', '1');
           localStorage.setItem('Username',userName);
+          navigate('/Std_Dashboard');
           
-        } else if (userName.includes('Parent')) {
+        } else if (userName.includes('parent')) {
           // If the user name contains "Parent," store role ID as 2
           localStorage.setItem('roleId', '2');
           localStorage.setItem('Username',userName);
+          navigate('/Par_Dashboard');
         }
-        navigate("/");
+      
+        
     
         // Perform other login logic here
       };
