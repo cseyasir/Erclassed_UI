@@ -10,8 +10,8 @@ import {Link} from 'react-router-dom';
                     <div class="col-lg-3 col-md-6">
                         <h3 class="text-white mb-2">Get In Touch</h3>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>134 C02 New Askok Nagar, New Delhi,INDIA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+917006386057</p>
-                        
+                      
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+917889308062</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>erclasses134@gmail.com</p>
                         <div class="d-flex pt-2">
                             <Link class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></Link>
@@ -49,7 +49,7 @@ import {Link} from 'react-router-dom';
                             &copy; ER Classes, All Right Reserved. 
 							
 
-							Designed By Er.Yasir and Er.Shuail
+							Designed By Er.Yasir Arfat
                         </div>
                        
                     </div>
